@@ -1,0 +1,96 @@
+
+body
+{
+	
+	 background-image: url("aspexplorer.jpg"); 
+	
+	
+}
+
+
+
+
+
+
+main
+{
+    
+    background: silver;
+    background-image: url("orca.png"); 
+    color: black;
+    text-align:center;
+    border-radius: 25px;
+}
+
+footer
+{
+    background: radial-gradient(black, indigo);
+    border-radius: 35px;
+	position: absolute;
+	bottom: 0px;
+}
+
+
+
+h1,h2,h3,h4
+{
+	text-align: center;
+}
+
+img 
+{
+	height:120px;
+	opacity: 0.5;
+}
+
+img:hover 
+{
+    opacity: 1.0;
+    /* on mouse hover normal opacity   */
+}
+
+nav
+{
+
+    position: fixed;
+	right: 0px; 
+	top: 0em; 
+	width: 100%;
+    text-align:center;
+	background-image: url("space-background.jpg"); 
+	/* background: radial-gradient(black, indigo); */
+    
+	/* styling for the nav */
+}
+
+nav li
+{
+    display: inline-block;
+    
+}
+
+
+ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+ 
+}
+
+li a {
+    display: block;
+    background: radial-gradient(black, indigo);
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover 
+{
+    background: radial-gradient(silver, indigo);
+    color: black;
+	
+	
+}
+
