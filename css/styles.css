@@ -40,12 +40,12 @@ h1,h2,h3,h4
 img 
 {
 	height:120px;
-	opacity: 0.5;
+	/*opacity: 0.5;*/
 }
 
 img:hover 
 {
-    opacity: 1.0;
+    opacity: 0.4;
     /* on mouse hover normal opacity   */
 }
 
@@ -88,7 +88,7 @@ li a {
 
 li a:hover 
 {
-    background: radial-gradient(silver, indigo);
+     background-image: url("orca.png"); 
     color: black;
 	
 	
