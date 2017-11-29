@@ -2,7 +2,10 @@
 body
 {
 	
-	 background-image: url("aspexplorer.jpg"); 
+	background-image: url("star2.jpg"); 
+	
+	color: white;
+	
 	
 	
 }
@@ -16,8 +19,8 @@ main
 {
     
     background: silver;
-    background-image: url("orca.png"); 
-    color: black;
+    background-image: url("orca.png");
+    color: white;
     text-align:center;
     border-radius: 25px;
 }
@@ -27,7 +30,7 @@ footer
     background: radial-gradient(black, indigo);
     border-radius: 35px;
 	position: absolute;
-	bottom: 0px;
+	
 }
 
 
@@ -57,15 +60,23 @@ nav
 	top: 0em; 
 	width: 100%;
     text-align:center;
-	background-image: url("space-background.jpg"); 
+	background: radial-gradient(black, indigo, black);
+	opacity: 0.4;
+	
 	/* background: radial-gradient(black, indigo); */
     
 	/* styling for the nav */
 }
 
+
+
+
+
+
 nav li
 {
     display: inline-block;
+	
     
 }
 
@@ -84,13 +95,15 @@ li a {
     color: white;
     padding: 8px 16px;
     text-decoration: none;
+	border-radius: 35px;
 }
 
 li a:hover 
 {
-     background-image: url("orca.png"); 
+    
     color: black;
-	
+	background-image: url("map.jpg"); 
+
 	
 }
 
