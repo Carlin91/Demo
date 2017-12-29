@@ -1,11 +1,6 @@
 
 
 
-
-
-
-
-
 /*normal styling */
 
 
@@ -42,15 +37,17 @@ header
 }
 
 
-footer
+
+article
 {
-    background: radial-gradient(black, orange, black);
-    border-radius: 35px;
-	position: absolute;
-	text-align:center;
-	color: black;
-	opacity: 0.7;
+	
+	text-align:left;
+	
 }
+
+
+
+
 
 
 h1,h2,h3,h4
@@ -62,12 +59,14 @@ img
 {
 	/*height:120px; */
 	border-radius: 25px;
+	transition: all 0.5s;
 	/*opacity: 0.5;*/
 }
 
 img:hover 
 {
     opacity: 0.4;
+	transition: all 0.5s;
     /* on mouse hover normal opacity   */
 }
 
@@ -81,7 +80,8 @@ nav
     text-align:center;
 	background: radial-gradient(black, orange, black);
 	opacity: 0.7;
-	
+	z-index: 9;
+	transition: all 0.8s;
 	/* background: radial-gradient(black, indigo); */
     
 	/* styling for the nav */
@@ -107,6 +107,7 @@ ul
 }
 
 li a {
+	
     display: block;
     background: radial-gradient(black, orange);
     color: white;
@@ -120,8 +121,14 @@ li a:hover
     
     color: black;
 	opacity: 0.9;
-	
+	transition: all 0.5s;
 }
+
+
+
+
+
+
 
 /*mobile style */
 
@@ -149,7 +156,7 @@ nav
 
 	{
 		background: radial-gradient(yellow, red);
-		font-size: 150%;
+		font-size: 120%;
 	}
 
 li a
@@ -161,9 +168,65 @@ li a
 	}
 
 
+	
+li a:hover 
+{
+    
+	
+	background: red;
+    color: black;
+	opacity: 0.9;
+	transition: all 0.5s;
+}
+
+	
+	
+	
+	
 }
 
 
 
 
+
+footer
+{
+
+	position: absolute;
+	text-align:center;
+	color: black;
+	opacity: 0.7;
+}
+
+
+ul.site
+{
+    
+	
+	
+	
+}
+
+
+
+
+
+
+figure
+{
+	
+	
+	
+	text-align:center;
+	
+}
+
+
+figcaption
+{
+font-family:"arial";
+font-size: 60%;
+
+	
+}
 
