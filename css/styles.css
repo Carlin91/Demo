@@ -1,4 +1,14 @@
 
+
+
+
+
+
+
+
+/*normal styling */
+
+
 body
 {
 	
@@ -11,7 +21,7 @@ main
 {
     
     background: radial-gradient(black, orange, black, orange, black);
-	
+	opacity: 0.9;
     color: white;
     text-align:center;
     border-radius: 25px;
@@ -50,7 +60,7 @@ h1,h2,h3,h4
 
 img 
 {
-	height:120px;
+	/*height:120px; */
 	border-radius: 25px;
 	/*opacity: 0.5;*/
 }
@@ -108,30 +118,52 @@ li a {
 li a:hover 
 {
     
-    color: red;
+    color: black;
 	opacity: 0.9;
 	
 }
 
-/*
-@media screen and (min-width: 477px)
+/*mobile style */
 
+@media screen and (max-width: 480px) 
 {
 	
-
-
+body 
+	{
+		margin-left: 10%;
+		margin-right: 10%;
+		background: url(../images/space.jpg);
+	} 
 
 	
+main 
+
+	{
+		background: radial-gradient(yellow, red);
+	}
+
+
+
+nav
 	
+
+	{
+		background: radial-gradient(yellow, red);
+		font-size: 150%;
+	}
+
+li a
+
+	{
+	
+	background: url(../images/space.jpg);
+		
+	}
+
+
 }
 
 
-@media screen and (min-width: 1270x)
 
-{
-	
-	
-	
-}
 
-*/
+
