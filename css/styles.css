@@ -23,6 +23,7 @@ main
 }
 
 
+
 section
 {
 
@@ -36,14 +37,6 @@ header
 
 }
 
-
-
-article
-{
-	
-	text-align:left;
-	
-}
 
 
 
@@ -82,6 +75,10 @@ nav
 	opacity: 0.7;
 	z-index: 9;
 	transition: all 0.8s;
+	
+	
+	
+
 	/* background: radial-gradient(black, indigo); */
     
 	/* styling for the nav */
@@ -176,7 +173,7 @@ li a:hover
 	background: red;
     color: black;
 	opacity: 0.9;
-	transition: all 0.5s;
+	transition: all 0.9s;
 }
 
 	
@@ -186,6 +183,7 @@ li a:hover
 }
 
 
+/*footer*/
 
 
 
@@ -197,18 +195,6 @@ footer
 	color: black;
 	opacity: 0.7;
 }
-
-
-ul.site
-{
-    
-	
-	
-	
-}
-
-
-
 
 
 
