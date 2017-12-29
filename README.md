@@ -1,3 +1,4 @@
 # CTEC3905-Website-Assignment
 
-First Rough layout design 
+This website is a site for looking at the ships in Elite: Dangerous
+
