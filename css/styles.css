@@ -7,7 +7,7 @@
 #div1{
     width: 60px;
     height: 30px;
-    background: linear-gradient(black, indigo);
+    background: linear-gradient(black, indigo, orange);
 	border-radius: 30px;
     font-weight: bold;
     position: relative;
@@ -60,13 +60,12 @@
 @keyframes mymove {
     from {left: 0px;}
     to {left: 200px;}
+	
+	
+	
 }
 
 
-@keyframes mymove1 {
-    from {right: 190px;}
-    to {right 0px;}
-}
 
 
 
